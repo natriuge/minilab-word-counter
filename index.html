@@ -18,13 +18,15 @@
   </head>
   <body>  
     <div class="counter">
-      <form action="#">
-        <textarea id="wordCount-area" class="wordCount-area" rows="4" cols="50"></textarea>
-        <input id="wordCount-button" class="wordCount-button" type="submit" value="Contar palavras">
-      </form>
+
+      <textarea id="wordCount-area" class="wordCount-area" rows="4" cols="50"></textarea>
+      <button onclick="wordCount()" class="wordCount-button">Contar palavras</button>
+      
     </div>
-    <div id="wordCount-text" class="wordCount-text">
-      <p>Você digitou x palavras</p>
+    <div class="counter-text">
+
+      <p>Você digitou <span id="wordCount-text">0</span> palavras</p>
+      
     </div>
 
     <script src="./assets/scripts/index.js"></script>
