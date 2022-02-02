@@ -7,12 +7,12 @@ body {
 
 }
 
-.main-wordCount {
+.counter {
   margin-left: auto;
   
 }
 
-.wordCount {
+.wordCount-area {
   width: 290px;
   height: 80px;
   display: flex;
@@ -21,7 +21,7 @@ body {
   
 }
 
-.button {
+.wordCount-button {
   width: 295px;
   height: 35px;
   background-color: rgb(37, 142, 222);
@@ -34,7 +34,7 @@ body {
   
 }
 
-.main-text {
+.wordCount-text {
   font-size: 30px;
   margin-right: auto;
   margin-left: 50px;
